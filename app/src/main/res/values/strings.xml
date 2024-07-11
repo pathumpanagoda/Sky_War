@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sky War</string>
+    <string name="start_txt">START</string>
+    <string name="option_txt">SETTINGS</string>
+    <string name="quite_txt">QUITE GAME</string>
+
+    <string name="speed_txt">Speed</string>
+    <string name="low_txt">Low</string>
+    <string name="medium_txt">Medium</string>
+    <string name="high_txt">High</string>
+    <string name="music_txt">Music</string>
+    <string name="on_txt">ON</string>
+    <string name="off_txt">OFF</string>
+    <string name="gamePaused_txt">GAME PAUSED</string>
+    <string name="resume_txt">RESUME</string>
+    <string name="gameOver_txt">GAME OVER</string>
+    <string name="restart_txt">RESTART</string>
+    <string name="savebtn_txt">SAVE</string>
+
+</resources>

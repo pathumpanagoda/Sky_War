@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/planeImageView"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/plane" />
+
+    <ImageView
+        android:id="@+id/bomb1"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/bomb2"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/bomb3"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/coin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/coin2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/coin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <!-- High Score TextView -->
+        <TextView
+            android:id="@+id/highScoreTextView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/banner1"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:text="High Score: 0"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Toggle Button -->
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="190dp"
+            android:textOff=""
+            android:textOn=""
+            android:background="@drawable/button_press" />
+
+        <!-- Pause Button -->
+        <ImageButton
+            android:id="@+id/pauseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/scoreTextView"
+            android:background="@null"
+            android:importantForAccessibility="no"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pausebtn2" />
+
+        <!-- Score TextView -->
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/banner2"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:text="Score: 0"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
